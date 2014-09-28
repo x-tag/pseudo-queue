@@ -1,10 +1,12 @@
 {
 	"name": "Queue Pseudo",
 	"tagName": null,
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"author": "you",
 	"description": "A pseudo that automatically queues calls to the attached function for the next available frame render. Using the 'queue(true)' argument debounces the calls, meaning only the last call made to the function is executed when the queue is processed.",
-	"categories": ["pseudos"],
+	"categories": [
+		"pseudos"
+	],
 	"compatibility": {
 		"firefox": 5,
 		"chrome": 4,
