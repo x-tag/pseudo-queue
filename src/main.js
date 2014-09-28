@@ -5,8 +5,8 @@
         var i = queue.length;
         while (i--) {
           queue[i].apply ? 
-          queue[i].apply(queue[i].__debounce__[0], xtag.toArray(queue[i].__debounce__[1])) : 
-          queue[i][0].apply(queue[i][1], xtag.toArray(queue[i][2]));
+          queue[i].apply(queue[i].__debounce__[0], queue[i].__debounce__[1]) : 
+          queue[i][0].apply(queue[i][1], queue[i][2]);
         }
         queue = [];
         requested = false;
